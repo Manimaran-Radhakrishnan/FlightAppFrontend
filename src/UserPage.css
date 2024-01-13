@@ -1,0 +1,132 @@
+.geninfo {
+  margin: 5% 30%;
+  padding: 1%;
+  background-color: transparent;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px black;
+  width: 40%;
+  background: #83a4d4;
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+  background: linear-gradient(to right, #b6fbff, #83a4d4);
+}
+
+.geninfo table {
+  width: 80%;
+  margin-left: 7%;
+}
+.bk1 {
+  margin: 3% 30%;
+  background-color: transparent;
+  border-radius: 10%;
+  box-shadow: 5px 5px 10px black;
+  width: 45%;
+  background: #83a4d4;
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+  background: linear-gradient(to right, #b6fbff, #83a4d4);
+}
+
+.userpagemain table th {
+  border-top: none;
+}
+.bk2 {
+  background-color: transparent;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px black;
+  width: 39%;
+  background: #83a4d4;
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+  background: linear-gradient(to right, #b6fbff, #83a4d4);
+}
+.bookhistit,
+.geninfohead {
+  color:red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: xx-large;
+  background-color:aliceblue;
+}
+.bookhistory {
+  border: 3px dashed red;
+  padding-bottom: 2%;
+  padding-top: 10px;
+}
+.userdoc {
+  margin-top: 2%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  border: 3px dashed aquamarine;
+}
+.userpagemain tr {
+  border-color: transparent;
+}
+.passdhead {
+  margin-top: 2%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.passdh {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-size: x-large;
+  background-color:aquamarine;
+  border-radius: 5%;
+}
+
+td {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 895px) {
+  .geninfo {
+    width: 60%;
+
+    font-size: 12px;
+  }
+
+  .bk1 {
+    background-color: transparent;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px black;
+    width: 65%;
+    background: #83a4d4;
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+    background: linear-gradient(to right, #b6fbff, #83a4d4);
+  }
+  .bk2 {
+    margin: 3% 30%;
+    background-color: transparent;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px black;
+    width: 75%;
+    background: #83a4d4;
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+    background: linear-gradient(to right, #b6fbff, #83a4d4);
+    position: relative;
+    left: -15%;
+  }
+
+  .passdh {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: lightgray;
+    border-radius: 5%;
+  }
+
+  .singup {
+    position: relative;
+    left: -12%;
+  }
+}
+
+@media (max-width: 400px) {
+  .bk2 {
+    margin-left: 20%;
+    width: 100%;
+  }
+}

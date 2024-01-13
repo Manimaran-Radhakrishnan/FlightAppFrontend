@@ -1,0 +1,12 @@
+.mhead {
+  padding-left: 2%;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  background-color:aquamarine;
+}
+
+.tdbtn {
+  background-color: aquamarine;
+  color: black;
+}
